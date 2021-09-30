@@ -21,7 +21,8 @@ WinPython 3.8+
 ### Installation
 Manually download all files.  
 Edit the `dataverse_settings.json` file with your organization specific parameters.  
-A Azure App Id is required. Create one in azure portal if needed.
+A Azure App Id is required. Create one in azure portal if needed.  
+Tenant Id and server URL can be found in: Office365 > Power Apps > Session Details.
 ### Usage
 Instantiate the client and call the authenticate function:  
 ```
