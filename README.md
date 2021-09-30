@@ -9,9 +9,7 @@ Settings are stored externally in a json file to avoid hardcoding sensitive para
 WinPython 3.8+
 ## Modules Required
 (multiple modules included by default in WinPython)  
-`
-pip install msal  
-pip install selenium  
-`  
+`pip install msal`
+`pip install selenium`
 ## License
 Apache 2.0
