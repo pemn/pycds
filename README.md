@@ -12,9 +12,10 @@ WinPython 3.8+
 `pip install msal`  
 `pip install selenium`  
 ## Usage
+Edit the `dataverse_settings.json` file with your organization specific parameters.  
 Instantiate the client and call the authenticate function:  
 `from dataverse import DataverseClient`  
-`client = DataverseClient('dataverse_geofe.json')`  
+`client = DataverseClient()`  
 `client.authenticate()`  
 
 ## License
