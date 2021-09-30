@@ -40,6 +40,7 @@ df.to_csv('table1download.csv', index=False)
 ```
 ### Example 2 - Upload data from a CSV file as new records on a CDS table
 ```
+import pandas as pd
 df = pd.from_csv('table1upload.csv')
 client.upload_df('crfbc_table1', df)
 ```
