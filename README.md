@@ -18,7 +18,9 @@ WinPython 3.8+
 (multiple modules included by default in WinPython)  
 `pip install msal`  
 `pip install selenium`  
-Selenium requires the chromedriver.exe to be in the same folder or somewhere in $PATH.
+Selenium requires the apropriated chromedriver.exe to be in the same folder or somewhere in $PATH.
+Download the latest version on:  
+https://chromedriver.chromium.org/downloads
 ## Tutorial
 ### Installation
 Manually download all files.  
