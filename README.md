@@ -11,5 +11,11 @@ WinPython 3.8+
 (multiple modules included by default in WinPython)  
 `pip install msal`  
 `pip install selenium`  
+## Usage
+Instantiate the client and call the authenticate function:  
+`from dataverse import DataverseClient`  
+`client = DataverseClient('dataverse_geofe.json')`  
+`client.authenticate()`  
+
 ## License
 Apache 2.0
