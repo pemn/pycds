@@ -6,9 +6,9 @@ Uses msal for oauth2 autentication. Uses selenium to display a browser window fo
 The requests module is the workhorse for handling REST API calls.
 Settings are stored externally in a json file to avoid hardcoding sensitive parameters.  
 ## Features
- - Pandas integration for download, upload and deletion of table records
- - Easy oauth2 authentication using a automated Chrome window
- - Built-in encrypted token storage
+ - Pandas integration for download, upload and deletion of table records using DataFrames
+ - Frictionless (as possible) oauth2 authentication using a automated Chrome window
+ - Built-in encrypted token storage. A single autentication can last many weeks until token expires.
  - Automatic handling of odata pagination, enabling full download of datasets over 5000 records.
  - Lean implementation allowing direct use of the requests methods
 ## Recomended Python Distribution
