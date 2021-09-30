@@ -2,10 +2,9 @@
 Client for Microsoft Dataverse/CDS/Dynamics CRM tables
 ## Description
 A simple and easy to mantain dataverse client.  
-Dataverse/CDS/Dynamics is a easy-to-use and powerful database for structured data. Also can store files in special fields. Think SQL+ADAUTH+HTTPD+RESTAPI.
-The main selling point is easy integration to the Office365 ecosystem and the fact it comes bundled with Enterprize plans.
-Uses msal for oauth2 autentication. Uses selenium to display a browser window for user autentication and automated token retrieval.  
-The requests module is the workhorse for handling REST API calls.
+Dataverse/CDS/Dynamics is a easy-to-use and powerful database for structured data. Also can store files in special fields. Think SQL+ADAUTH+HTTPD+RESTAPI.  
+The main selling point is easy integration to the Office365 ecosystem and the fact it comes bundled with Enterprize plans.  
+The requests module is the workhorse for handling REST API calls.  
 Settings are stored externally in a json file to avoid hardcoding sensitive parameters.  
 ## Features
  - Pandas integration for download, upload and deletion of table records using DataFrames
@@ -19,6 +18,7 @@ WinPython 3.8+
 (multiple modules included by default in WinPython)  
 `pip install msal`  
 `pip install selenium`  
+Selenium requires the chromedriver.exe to be in the same folder or somewhere in $PATH.
 ## Tutorial
 ### Installation
 Manually download all files.  
