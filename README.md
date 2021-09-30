@@ -8,7 +8,7 @@ Settings are stored externally in a json file to avoid hardcoding sensitive para
 ## Features
  - Pandas integration for download, upload and deletion of table records using DataFrames
  - Frictionless (as possible) oauth2 authentication using a automated Chrome window
- - Built-in encrypted token storage for a white picket fence level security. Only token stored, no credentials.
+ - Built-in encrypted token storage for a white picket fence level security. No credentials are stored, only token tied to your Azure AppId.
  - Automatic handling of odata pagination, enabling full download of datasets over 5000 records.
  - Lean implementation allowing direct use of the requests methods
 ## Recomended Python Distribution
@@ -21,6 +21,7 @@ WinPython 3.8+
 ### Installation
 Manually download all files.  
 Edit the `dataverse_settings.json` file with your organization specific parameters.  
+A Azure App Id is required. Create one in azure portal if needed.
 ### Usage
 Instantiate the client and call the authenticate function:  
 ```
