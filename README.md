@@ -22,9 +22,11 @@ Manually download all files.
 Edit the `dataverse_settings.json` file with your organization specific parameters.  
 ### Usage
 Instantiate the client and call the authenticate function:  
-```from dataverse import DataverseClient
+```
+from dataverse import DataverseClient
 client = DataverseClient()
-client.authenticate()```
+client.authenticate()
+```
 Tipical use would be using the the .get() and .post() methods. More details on the help() documentation of each method.  
 Usefull methods:  
  - get
@@ -32,10 +34,14 @@ Usefull methods:
  - upload_df
  - delete_df
 ### Example 1 - Download an entire CDS table to CSV file
-```df = client.get('crfbc_table1')
-df.to_csv('table1.csv', index=False)```
+```
+df = client.get('crfbc_table1')
+df.to_csv('table1download.csv', index=False)
+```
 ### Example 2 - Upload data from a CSV file as new records on a CDS table
-```df = pd.from_csv('table1upload.csv')
-client.upload_df('table1', df)```
+```
+df = pd.from_csv('table1upload.csv')
+client.upload_df('table1', df)
+```
 ## License
 Apache 2.0
