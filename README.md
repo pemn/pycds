@@ -41,7 +41,7 @@ df.to_csv('table1download.csv', index=False)
 ### Example 2 - Upload data from a CSV file as new records on a CDS table
 ```
 df = pd.from_csv('table1upload.csv')
-client.upload_df('table1', df)
+client.upload_df('crfbc_table1', df)
 ```
 ## License
 Apache 2.0
