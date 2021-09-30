@@ -8,7 +8,8 @@ Settings are stored externally in a json file to avoid hardcoding sensitive para
 ## Features
  - Pandas integration for download, upload and deletion of table records
  - Easy oauth2 authentication using a automated Chrome window
- - Bultt-in encrypted token storage
+ - Built-in encrypted token storage
+ - Automatic handling of odata pagination, enabling full download of datasets over 5000 records.
  - Lean implementation allowing direct use of the requests methods
 ## Recomended Python Distribution
 WinPython 3.8+
